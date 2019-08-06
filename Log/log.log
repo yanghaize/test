@@ -1,0 +1,40 @@
+[2019-08-06 16:31:45][DEBUG][ERROR] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /var/www/test/vendor/easyswoole/easyswoole/src/ServerManager.php:57
+Stack trace:
+#0 /var/www/test/vendor/easyswoole/easyswoole/src/ServerManager.php(57): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /var/www/test/vendor/easyswoole/easyswoole/src/Core.php(115): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /var/www/test/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /var/www/test/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /var/www/test/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /var/www/test/easyswoole(24): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/var/www/test/vendor/easyswoole/easyswoole/src/ServerManager.php line:57]
+[2019-08-06 16:32:26][DEBUG][ERROR] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /var/www/test/vendor/easyswoole/easyswoole/src/ServerManager.php:57
+Stack trace:
+#0 /var/www/test/vendor/easyswoole/easyswoole/src/ServerManager.php(57): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /var/www/test/vendor/easyswoole/easyswoole/src/Core.php(115): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /var/www/test/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /var/www/test/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /var/www/test/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /var/www/test/easyswoole(24): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/var/www/test/vendor/easyswoole/easyswoole/src/ServerManager.php line:57]
+[2019-08-06 16:49:18][DEBUG][ERROR] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /var/www/test/vendor/easyswoole/easyswoole/src/ServerManager.php:57
+Stack trace:
+#0 /var/www/test/vendor/easyswoole/easyswoole/src/ServerManager.php(57): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /var/www/test/vendor/easyswoole/easyswoole/src/Core.php(115): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /var/www/test/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /var/www/test/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /var/www/test/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /var/www/test/easyswoole(24): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/var/www/test/vendor/easyswoole/easyswoole/src/ServerManager.php line:57]
+[2019-08-06 16:49:26][DEBUG][ERROR] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /var/www/test/vendor/easyswoole/easyswoole/src/ServerManager.php:57
+Stack trace:
+#0 /var/www/test/vendor/easyswoole/easyswoole/src/ServerManager.php(57): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /var/www/test/vendor/easyswoole/easyswoole/src/Core.php(115): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /var/www/test/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /var/www/test/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /var/www/test/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /var/www/test/easyswoole(24): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/var/www/test/vendor/easyswoole/easyswoole/src/ServerManager.php line:57]
